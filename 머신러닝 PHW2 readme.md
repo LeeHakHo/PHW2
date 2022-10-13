@@ -20,7 +20,8 @@
 AutoML – Requires a list of scalers, a list of encoders, a list of clustering models and dataset. Outputs the best result for data clustering using various scaler, encoder, model combinations.
 
  **Parameters::** 
- **scaler\_list : _list, default = [StandardScaler(), RobustScaler(), MinMaxScaler(), Normalizer(), MaxAbsScaler()]_**The list of scaler user wants to test. The function will return the test of combination that used corresponding scaler. It will show you the kind of combination that shows the best result of the program (Auto ML)  
+ **scaler\_list : _list, default = [StandardScaler(), RobustScaler(), MinMaxScaler(), Normalizer(), MaxAbsScaler()]_**  
+ The list of scaler user wants to test. The function will return the test of combination that used corresponding scaler. It will show you the kind of combination that shows the best result of the program (Auto ML)  
  ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.001.png)
  
 **encoder\_list : _list, default = [OneHotEncoder(), LabelEncoder()]_**The list of encoder user wants to test. The function will return the test of combination that used corresponding encoder. It will show you the kind of combination that show the best result of the program (Auto ML)  
@@ -46,7 +47,8 @@ The data file user wants to test. Such as 'The California Housing Prices Dataset
   
  ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.010.png)  
  
-**[KMeans when k=2]****Above plot is kmeans for all 13 attributes (including encoded 'ocean\_proximity'). We can tell that feature 'total\_room, total\_bedroom, population, household' shows more distinctive clustering than other features. They are influential to the clustering result.**Also, by the scattered graph above, we can see those 4 features are proportional.
+**[KMeans when k=2]****  
+Above plot is kmeans for all 13 attributes (including encoded 'ocean\_proximity'). We can tell that feature 'total\_room, total\_bedroom, population, household' shows more distinctive clustering than other features. They are influential to the clustering result.**Also, by the scattered graph above, we can see those 4 features are proportional.
  
 
 # **Our Work**
