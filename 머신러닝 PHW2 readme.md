@@ -12,17 +12,14 @@
 
 [**Contribution** 12](#_Toc115720961)
 
-|
- |
-| --- |
+
+
 
 # AutoML(scaler\_list, encoder\_list, model\_list, dataset)
 
- |
-|
 AutoML – Requires a list of scalers, a list of encoders, a list of clustering models and dataset. Outputs the best result for data clustering using various scaler, encoder, model combinations.
- |
-| **Parameters::** |
+
+ **Parameters::** 
 | **scaler\_list : _list, default = [StandardScaler(), RobustScaler(), MinMaxScaler(), Normalizer(), MaxAbsScaler()]_**The list of scaler user wants to test. The function will return the test of combination that used corresponding scaler. It will show you the kind of combination that shows the best result of the program (Auto ML) ![](RackMultipart20221013-1-lyyris_html_21f8ff65acb51ff3.png)
 **encoder\_list : _list, default = [OneHotEncoder(), LabelEncoder()]_**The list of encoder user wants to test. The function will return the test of combination that used corresponding encoder. It will show you the kind of combination that show the best result of the program (Auto ML) ![](RackMultipart20221013-1-lyyris_html_21f8ff65acb51ff3.png)
 **model\_list : _list, default = [KMeans(), GaussianMixture(), DBSCAN(), OPTICS()]_**The list of model user wants to test. The function will return the test of combination that used corresponding model. It will show you the kind of combination that show the best result of the program (Auto ML) ![](RackMultipart20221013-1-lyyris_html_21f8ff65acb51ff3.png)
