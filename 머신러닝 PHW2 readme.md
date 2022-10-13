@@ -31,7 +31,8 @@ AutoML – Requires a list of scalers, a list of encoders, a list of clustering 
 
 **dataset : _data file, default = housing.csv_** The data file user wants to test. Such as 'The California Housing Prices Dataset'. You should drop the target feature before putting it in as a parameter.
 
- **Examples::** 
+ **Examples::**  
+ 
  ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.004.png)
  
 
@@ -42,7 +43,8 @@ AutoML – Requires a list of scalers, a list of encoders, a list of clustering 
   
   Last three results are the results of the second loop. As the above evaluation result shows, second iteration has better quality than the first result.  
   
- ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.010.png)
+ ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.010.png)  
+ 
 **[KMeans when k=2]****Above plot is kmeans for all 13 attributes (including encoded 'ocean\_proximity'). We can tell that feature 'total\_room, total\_bedroom, population, household' shows more distinctive clustering than other features. They are influential to the clustering result.**Also, by the scattered graph above, we can see those 4 features are proportional.
  
 
