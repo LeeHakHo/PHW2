@@ -34,9 +34,9 @@ AutoML – Requires a list of scalers, a list of encoders, a list of clustering 
 
 # **Evaluation Result**
  
- ![](RackMultipart20221013-1-lyyris_html_88e52b6918915436.png) ![](RackMultipart20221013-1-lyyris_html_ec40ab053b394a05.png) ![](RackMultipart20221013-1-lyyris_html_38681c102dc4c5f4.png) ![](RackMultipart20221013-1-lyyris_html_e17b00742640836d.png)
- ![](RackMultipart20221013-1-lyyris_html_8d9e616cadc1e760.png)Last three results are the results of the second loop. As the above evaluation result shows, second iteration has better quality than the first result.
- ![](RackMultipart20221013-1-lyyris_html_1a2e6631d9171171.png)
+ ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.005.png) ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.006.png) ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.007.png) ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.008.png)
+ ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.009.png)Last three results are the results of the second loop. As the above evaluation result shows, second iteration has better quality than the first result.
+ ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.010.png)
 **[KMeans when k=2]****Above plot is kmeans for all 13 attributes (including encoded 'ocean\_proximity'). We can tell that feature 'total\_room, total\_bedroom, population, household' shows more distinctive clustering than other features. They are influential to the clustering result.**Also, by the scattered graph above, we can see those 4 features are proportional.
  
 
