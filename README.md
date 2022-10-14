@@ -25,7 +25,7 @@ AutoML – Requires a list of scalers, a list of encoders, a list of clustering 
  **Parameters::** 
  **scaler\_list : _list, default = [StandardScaler(), RobustScaler(), MinMaxScaler(), Normalizer(), MaxAbsScaler()]_**  
  The list of scaler user wants to test. The function will return the test of combination that used corresponding scaler. It will show you the kind of combination that shows the best result of the program (Auto ML)  
- ![](Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.001.png)
+ ![](Screenshots/Aspose.Words.9aca9a90-76ee-47c0-adbd-4e04b00d74b9.001.png)
  
 **encoder\_list : _list, default = [OneHotEncoder(), LabelEncoder()]_**  
 The list of encoder user wants to test. The function will return the test of combination that used corresponding encoder. It will show you the kind of combination that show the best result of the program (Auto ML)  
